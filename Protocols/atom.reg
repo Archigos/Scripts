@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\atom]
+"URL Protocol"=""
+@="URL:Atom"
+
+[HKEY_CLASSES_ROOT\atom\DefaultIcon]
+@="C:\\Users\\AJ\\AppData\\Local\\atom\\app-1.4.0\\atom.exe,1"
+
+[HKEY_CLASSES_ROOT\atom\shell]
+
+[HKEY_CLASSES_ROOT\atom\shell\open]
+
+[HKEY_CLASSES_ROOT\atom\shell\open\command]
+@="C:\\Windows\\System32\\cmd.exe /K AtomProtocol.cmd \"%1\""

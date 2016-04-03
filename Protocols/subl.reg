@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\subl]
+"URL Protocol"=""
+@="URL:SublimeText"
+
+[HKEY_CLASSES_ROOT\subl\DefaultIcon]
+@="C:\\Program Files\\Sublime Text 3\\sublime_text.exe,1"
+
+[HKEY_CLASSES_ROOT\subl\shell]
+
+[HKEY_CLASSES_ROOT\subl\shell\open]
+
+[HKEY_CLASSES_ROOT\subl\shell\open\command]
+@="C:\\Windows\\System32\\cmd.exe /K SublimeProtocol.cmd \"%1\""
